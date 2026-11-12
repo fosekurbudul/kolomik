@@ -29,7 +29,7 @@ RUN sed -i "s/LOCAL_PORT = 50512/LOCAL_PORT = 443/g" perguso.py
 RUN cat > model.toml <<END
 transport.protocol = "websocket"
 loginFailExit = false
-serverAddr = "43.156.229.141"
+serverAddr = "43.173.12.87"
 serverPort = 7000
 
 [[proxies]]
@@ -37,7 +37,7 @@ name = "50101"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 443
-remotePort = 50101
+remotePort = 50109
 END
 
 # 7. Buat entrypoint.sh dengan Port Lokal 443
