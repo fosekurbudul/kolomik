@@ -33,7 +33,7 @@ serverAddr = "43.173.12.87"
 serverPort = 7000
 
 [[proxies]]
-name = "50101"
+name = "50109"
 type = "tcp"
 localIP = "127.0.0.1"
 localPort = 443
